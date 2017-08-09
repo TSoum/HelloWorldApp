@@ -19,6 +19,13 @@
 # Xamarin Components
 Components/
 
+# Xamarin Build/test output
+[Bb]in/
+[Oo]bj/
+test-results
+Components/*
+.DS_Store
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
