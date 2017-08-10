@@ -10,7 +10,7 @@ namespace HelloWorldApp
     public partial class MainPage : ContentPage
     {
 
-       HelloWorldPage helloWorldPage;
+       //HelloWorldPage helloWorldPage;
       //  MainPage mainPage;
 
         public MainPage()
@@ -26,10 +26,10 @@ namespace HelloWorldApp
             //      this.helloWorldPage = new HelloWorldPage();
             //  }
 
-           // helloWorldBtn += 1;
+            // helloWorldBtn += 1;
             //  mainPage = new HelloWorldApp.HelloWorldPage();
-                
-            
+
+            App.Current.MainPage = new HelloWorldPage();
 
         }
     }
