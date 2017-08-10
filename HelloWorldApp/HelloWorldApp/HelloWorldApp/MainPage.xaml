@@ -13,7 +13,9 @@
            HorizontalOptions="Center" />
 
         <Button Text ="Click Here for your Hello World Experience"
+             x:Name="helloWorldBtn" 
+                x:Uid="helloWorldButton"
            Clicked="Button_Clicked" />
         
-   </StackLayout>
+   </StackLayout>   
 </ContentPage>

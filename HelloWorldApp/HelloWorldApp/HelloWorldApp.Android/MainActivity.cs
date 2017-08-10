@@ -1,5 +1,5 @@
 ﻿using System;
-
+using HelloWorldApp;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -22,6 +22,8 @@ namespace HelloWorldApp.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
+
+
     }
 }
 
