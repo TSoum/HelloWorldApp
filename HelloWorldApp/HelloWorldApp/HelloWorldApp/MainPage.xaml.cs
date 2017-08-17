@@ -10,25 +10,23 @@ namespace HelloWorldApp
     public partial class MainPage : ContentPage
     {
 
-       //HelloWorldPage helloWorldPage;
-      //  MainPage mainPage;
 
+        /// <summary>
+        /// Constructor for home screen
+        /// </summary>
         public MainPage()
         {
             InitializeComponent();
             
         }
 
+        /// <summary>
+        /// Method for HelloWorld button to switch to the hello world screen.
+        /// </summary>
+     
         private void Button_Clicked(object sender, EventArgs e)
         {
-            // if (this.helloWorldPage == null)
-            //  {
-            //      this.helloWorldPage = new HelloWorldPage();
-            //  }
-
-            // helloWorldBtn += 1;
-            //  mainPage = new HelloWorldApp.HelloWorldPage();
-
+            
             App.Current.MainPage = new HelloWorldPage();
 
         }
